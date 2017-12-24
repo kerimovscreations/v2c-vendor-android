@@ -1,6 +1,42 @@
 <resources>
     <string name="app_name">V2CVendor</string>
+    <string name="base_url" translatable="false">http://138.197.191.114/~v2clab/</string>
+    <string name="google_maps_key" translatable="false">AIzaSyCsnXF6n7yFkDQhH1SwvAfOTdqPWx1_YlQ</string>
+    <string name="facebook_app_id" translatable="false">562322764107096</string>
+
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="local_preference">LocalPreferenceV2CVendor</string>
+    <string name="local_preference_token">LocalPreferenceToken</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_profile">Profile</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_requests">Requests</string>
+    <string name="title_stock">Stock</string>
+    <string name="title_shipping">Shipping</string>
+    <string name="title_invoice">Invoice</string>
+    <string name="action_stock">Stock</string>
+    <string name="action_requests">Requests</string>
+    <string name="action_shipping">Shipping</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_invoice">Invoice</string>
+    <string name="logout">Logout</string>
+
 </resources>

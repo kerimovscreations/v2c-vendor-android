@@ -8,4 +8,31 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="GreenButtonTheme" parent="AppTheme">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="BlueButtonTheme" parent="AppTheme">
+        <item name="colorButtonNormal">@color/colorBlue</item>
+    </style>
+
+    <style name="FBButtonTheme" parent="AppTheme">
+        <item name="colorButtonNormal">@color/com_facebook_blue</item>
+    </style>
+
+    <style name="RedButtonTheme" parent="AppTheme">
+        <item name="colorButtonNormal">@color/colorRed</item>
+    </style>
+
+    <style name="grayProgressBar">
+        <item name="colorAccent">@color/colorGray</item>
+    </style>
+
+    <style name="blueProgressBar">
+        <item name="colorAccent">@color/colorBlue</item>
+    </style>
+
+    <style name="greenProgressBar">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
 </resources>
