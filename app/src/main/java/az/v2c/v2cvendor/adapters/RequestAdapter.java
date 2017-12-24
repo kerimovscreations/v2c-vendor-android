@@ -104,10 +104,10 @@ public class RequestAdapter extends RecyclerView.Adapter<RequestAdapter.ViewHold
 
             viewHolder.counterText.setText(String.format(Locale.getDefault(),
                     "%.1f x (%.1f %s)",
-                    bItem.getRequested_amount(),
+                    bItem.getResponded_amount(),
                     bItem.getProduct().getMin_quantity(),
                     bItem.getProduct().getUnit().getName()));
-            viewHolder.calendarText.setText(bItem.getRequest_date());
+            viewHolder.calendarText.setText(bItem.getResponded_date());
             viewHolder.price.setText(String.valueOf(bItem.getResponded_price()));
             viewHolder.price.setEnabled(false);
         }

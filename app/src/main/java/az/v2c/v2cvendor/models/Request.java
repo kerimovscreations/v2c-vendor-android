@@ -1,5 +1,12 @@
 package az.v2c.v2cvendor.models;
 
+import android.text.format.DateUtils;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 /**
  * Copyright (C) 2017 Kerimov's Creations.
  * <p>
@@ -134,7 +141,17 @@ public class Request {
     }
 
     public String getRequested_date() {
-        return requested_date;
+        String date_str = this.requested_date;
+        SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault());
+        try {
+            Date date = sdf2.parse(date_str);
+            DateFormat df = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+            date_str = df.format(date);
+        } catch (Exception ignored) {
+            ignored.printStackTrace();
+        }
+
+        return date_str;
     }
 
     public void setRequested_date(String requested_date) {
@@ -142,7 +159,17 @@ public class Request {
     }
 
     public String getResponded_date() {
-        return responded_date;
+        String date_str = this.responded_date;
+        SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault());
+        try {
+            Date date = sdf2.parse(date_str);
+            DateFormat df = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+            date_str = df.format(date);
+        } catch (Exception ignored) {
+            ignored.printStackTrace();
+        }
+
+        return date_str;
     }
 
     public void setResponded_date(String responded_date) {
